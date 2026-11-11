@@ -1,0 +1,61 @@
+ID_Venda,Cliente,Mercado,Regiao,Produto,Quantidade,Preco_Unitario,Custo_Unitario,Forma_Pagamento
+1,Cliente_143,Mercado Central,Centro,Arroz 5kg,12,31.03,17.39,Dinheiro
+2,Cliente_114,Atacadão Leste,Leste,Feijão 1kg,10,6.72,5.76,Cartão de Crédito
+3,Cliente_114,Atacadão Leste,Leste,Manteiga 200g,1,8.86,7.79,PIX
+4,Cliente_144,Mercado da Praça,Oeste,Manteiga 200g,5,12.41,7.5,Cartão de Crédito
+5,Cliente_106,Mercado da Praça,Oeste,Café 500g,5,17.26,11.38,Cartão de Débito
+6,Cliente_102,Mercado Central,Centro,Açúcar 1kg,2,5.48,03.09,Cartão de Débito
+7,Cliente_140,Mercado da Praça,Oeste,Farinha 1kg,2,6.52,3.8,Cartão de Débito
+8,Cliente_149,Atacadão Leste,Leste,Café 500g,10,12.49,11.03,Cartão de Crédito
+9,Cliente_129,Hipermercado Norte,Norte,Feijão 1kg,14,8.23,5.79,Cartão de Débito
+10,Cliente_138,Hipermercado Norte,Norte,Macarrão 500g,6,3.86,2.87,Dinheiro
+11,Cliente_140,Supermercado Sul,Sul,Farinha 1kg,12,4.97,3.83,Cartão de Débito
+12,Cliente_114,Atacadão Leste,Leste,Óleo 900ml,11,5.82,5.36,Dinheiro
+13,Cliente_113,Mercado Central,Centro,Café 500g,7,19.77,11.08,Cartão de Débito
+14,Cliente_108,Mercado da Praça,Oeste,Açúcar 1kg,15,5.36,3.13,Cartão de Débito
+15,Cliente_123,Supermercado Sul,Sul,Farinha 1kg,9,4.99,3.88,PIX
+16,Cliente_109,Supermercado Sul,Sul,Macarrão 500g,9,3.79,2.9,Dinheiro
+17,Cliente_133,Supermercado Sul,Sul,Açúcar 1kg,10,3.84,3.1,PIX
+18,Cliente_143,Hipermercado Norte,Norte,Farinha 1kg,14,5.94,3.92,Dinheiro
+19,Cliente_110,Atacadão Leste,Leste,Leite 1L,13,4.14,3.34,PIX
+20,Cliente_132,Mercado da Praça,Oeste,Arroz 5kg,12,27.88,17.41,Cartão de Crédito
+21,Cliente_123,Mercado Central,Centro,Leite 1L,14,6.39,3.54,Cartão de Crédito
+22,Cliente_131,Supermercado Sul,Sul,Farinha 1kg,13,5.65,04.02,Cartão de Débito
+23,Cliente_115,Mercado Central,Centro,Feijão 1kg,15,10.49,6.14,Cartão de Débito
+24,Cliente_104,Mercado Central,Centro,Óleo 900ml,15,9.44,05.08,PIX
+25,Cliente_116,Atacadão Leste,Leste,Macarrão 500g,3,3.36,2.98,Cartão de Crédito
+26,Cliente_145,Atacadão Leste,Leste,Manteiga 200g,7,9.26,7.87,Cartão de Crédito
+27,Cliente_107,Hipermercado Norte,Norte,Açúcar 1kg,11,4.65,3.13,PIX
+28,Cliente_137,Supermercado Sul,Sul,Óleo 900ml,2,6.96,5.29,Cartão de Crédito
+29,Cliente_102,Supermercado Sul,Sul,Arroz 5kg,2,23.96,17.32,Dinheiro
+30,Cliente_134,Hipermercado Norte,Norte,Feijão 1kg,9,8.24,06.02,Cartão de Crédito
+31,Cliente_112,Supermercado Sul,Sul,Manteiga 200g,10,10.42,7.81,PIX
+32,Cliente_146,Mercado Central,Centro,Feijão 1kg,11,10.56,5.92,PIX
+33,Cliente_115,Mercado Central,Centro,Feijão 1kg,1,10.53,5.89,Dinheiro
+34,Cliente_129,Supermercado Sul,Sul,Óleo 900ml,9,07.07,5.22,Cartão de Débito
+35,Cliente_103,Supermercado Sul,Sul,Feijão 1kg,8,8.38,06.09,Dinheiro
+36,Cliente_126,Atacadão Leste,Leste,Arroz 5kg,2,20.43,17.64,Cartão de Crédito
+37,Cliente_124,Mercado da Praça,Oeste,Sal 1kg,4,3.11,1.91,Cartão de Crédito
+38,Cliente_127,Mercado Central,Centro,Açúcar 1kg,5,06.05,3.26,Cartão de Débito
+39,Cliente_137,Atacadão Leste,Leste,Sal 1kg,3,1.69,1.64,Dinheiro
+40,Cliente_132,Atacadão Leste,Leste,Arroz 5kg,12,19.81,17.32,PIX
+41,Cliente_104,Atacadão Leste,Leste,Macarrão 500g,1,3.66,2.63,Cartão de Crédito
+42,Cliente_137,Atacadão Leste,Leste,Feijão 1kg,11,7.16,5.91,Cartão de Crédito
+43,Cliente_116,Atacadão Leste,Leste,Arroz 5kg,10,19.58,17.56,Cartão de Débito
+44,Cliente_129,Supermercado Sul,Sul,Café 500g,4,14.97,11.05,Cartão de Débito
+45,Cliente_104,Hipermercado Norte,Norte,Feijão 1kg,1,8.46,6.15,Dinheiro
+46,Cliente_115,Atacadão Leste,Leste,Óleo 900ml,9,5.77,5.42,Dinheiro
+47,Cliente_139,Hipermercado Norte,Norte,Leite 1L,3,4.94,3.52,Cartão de Débito
+48,Cliente_108,Atacadão Leste,Leste,Arroz 5kg,11,20.32,17.42,Dinheiro
+49,Cliente_118,Hipermercado Norte,Norte,Feijão 1kg,15,8.11,5.97,Cartão de Débito
+50,Cliente_132,Atacadão Leste,Leste,Óleo 900ml,12,5.84,5.32,Cartão de Débito
+51,Cliente_117,Mercado da Praça,Oeste,Leite 1L,15,5.91,3.32,PIX
+52,Cliente_110,Mercado Central,Centro,Arroz 5kg,6,31.52,17.55,Cartão de Débito
+53,Cliente_144,Mercado da Praça,Oeste,Farinha 1kg,12,5.98,3.65,Dinheiro
+54,Cliente_127,Supermercado Sul,Sul,Farinha 1kg,1,5.56,3.88,Cartão de Crédito
+55,Cliente_122,Supermercado Sul,Sul,Arroz 5kg,5,23.61,17.67,Dinheiro
+56,Cliente_139,Supermercado Sul,Sul,Óleo 900ml,11,6.73,5.36,PIX
+57,Cliente_126,Supermercado Sul,Sul,Óleo 900ml,14,6.79,5.37,Cartão de Crédito
+58,Cliente_142,Mercado Central,Centro,Macarrão 500g,12,5.42,2.91,PIX
+59,Cliente_130,Supermercado Sul,Sul,Leite 1L,3,05.04,3.34,Dinheiro
+60,Cliente_114,Supermercado Sul,Sul,Óleo 900ml,14,7.54,5.19,Cartão de Crédito
