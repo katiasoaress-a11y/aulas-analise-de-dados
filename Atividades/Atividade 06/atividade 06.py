@@ -1,8 +1,7 @@
 import matplotlib.pyplot as plt
 import pandas as pd
 
-# 1. Carregamento da base de dados
-# Substitua pelo nome exato do arquivo baixado (ex: 'customers-10000.csv')
+
 caminho_arquivo = 'customers-10000.csv'
 df = pd.read_csv(caminho_arquivo)
 
@@ -10,15 +9,13 @@ df = pd.read_csv(caminho_arquivo)
 print('Colunas da base:', df.columns.tolist())
 print('-' * 50)
 
-# ==============================================================================
-# TÓPICO 1: A Região Mais Vendida
-# ==============================================================================
-# País com maior número de assinaturas
+
+
 top_paises = df['Country'].value_counts()
 pais_mais_vendido = top_paises.idxmax()
 qtd_pais = top_paises.max()
 
-# Cidade com maior número de assinaturas
+
 top_cidades = df['City'].value_counts()
 cidade_mais_vendida = top_cidades.idxmax()
 qtd_cidade = top_cidades.max()
@@ -32,7 +29,7 @@ print(
 )
 print('-' * 50)
 
-# Gráfico de Barras Horizontais: Top 10 Países
+
 top_10_paises = top_paises.head(10).sort_values(
     ascending=True
 )  # Ordena para o maior ficar no topo
@@ -47,13 +44,10 @@ plt.tight_layout()
 plt.savefig('top_10_paises.png', dpi=300)  # Salva o gráfico em alta qualidade
 plt.show()
 
-# ==============================================================================
-# TÓPICO 2: Datas de Maior Venda
-# ==============================================================================
-# Converter a coluna 'Subscription Date' para datetime
+
 df['Subscription Date'] = pd.to_datetime(df['Subscription Date'])
 
-# Extrair Ano e Mês para análise
+
 df['Ano'] = df['Subscription Date'].dt.year
 df['Mes'] = df['Subscription Date'].dt.month
 df['Ano_Mes'] = df['Subscription Date'].dt.to_period('M')
@@ -72,7 +66,7 @@ print(
 )
 print('-' * 50)
 
-# Gráfico de Linha: Evolução das assinaturas ao longo do tempo (por Mês/Ano)
+
 plt.figure(figsize=(12, 5))
 vendas_por_ano_mes.plot(
     kind='line', marker='o', color='#d95f02', linewidth=2, markersize=4
@@ -85,9 +79,7 @@ plt.tight_layout()
 plt.savefig('evolucao_assinaturas.png', dpi=300)
 plt.show()
 
-# ==============================================================================
-# TÓPICO 3: O Maior Cliente (B2B)
-# ==============================================================================
+
 top_5_empresas = df['Company'].value_counts().head(5)
 
 print('3. Top 5 Maiores Clientes Corporativos (B2B):')
